@@ -1,38 +1,167 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Reservia</title>
-    </head>
 
-    <body>
-        <header>
-            <img src="/Users/mattieugedeon/Documents/Openclassrooms/WEB/P2/P2/Projet 2 - Reservia/images/logo/Reservia.svg"/>
-            <h1>S'inscrire</h1>
-            <nav>Hébergements</nav>
-            <nav>Activités</nav>
-        </header>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d7374fc568.js" crossorigin="anonymous"></script>
+    <title>Reservia</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo/Reservia.svg" />
+        <nav>
+            <ul>
+                <li><a href="#">S'inscrire</a></li>
+                <li><a href="#hebergements">Hébergements</a></li>
+                <li><a href="#activites">Activités</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
+
+        <input type="search">
+        <button>Rechercher</button> <!-- span rechercher et span icone -->
+
         <h3>Filtres</h3>
-        
+        <!-- rajouter les logos -->
         <p>Economique</p>
         <p>Familial</p>
         <p>Romantique</p>
         <p>Animaux autorisés</p>
-        eareara
-        
-    </body>
+
+        <h2>Les plus populaires</h2>
+        <a href="#">
+            <article>
+                <!-- balise picture https://developer.mozilla.org/fr/docs/Web/HTML/Element/picture -->
+                <img src="images/hebergements/4_small/soleil_matin_s.jpg" alt="Photo de l'Hôtel Le soleil du matin">
+                <div>
+                    <!-- div au lieu de div -->
+                    <p>Hôtel Le soleil du matin</p>
+                    <p>Nuit à partir de 128€</p>
+                    <i class="fas fa-star"></i>
+                    <!-- comme si c'était du texte -->
+                </div>
+            </article>
+        </a>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/coeur_eau_s.jpg"
+                    alt="Photo de Au cœur de l'eau Chambres d'hôtes"></a>
+            <div>
+                <p>Au cœur de l'eau Chambres d'hôtes</p>
+                <p>Nuit à partir de 71€</p>
+            </div>
+        </article>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/bleu_et_blanc_s.jpg"
+                    alt="Photo de l'Hôtel Tout bleu et Blanc"></a>
+            <div>
+                <p>Hôtel Tout bleu et Blanc</p>
+                <p>Nuit à partir de 68€</p>
+            </div>
+        </article>
+
+        <h2 id="hebergements">Hébergements à Marseille</h2>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/auberge_cannebiere_s.jpg"
+                    alt="Photo de l'Auberge la Cannebière"></a>
+            <div>
+                <p>Auberge la Cannebière</p>
+                <p>Nuit à partir de 25€</p>
+            </div>
+        </article>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/hotel_port_s.jpg" alt="Photo de l'Hôtel du port"></a>
+            <div>
+                <p>Hôtel du port</p>
+                <p>Nuit à partir de 52€</p>
+            </div>
+        </article>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/hotel_mouettes_s.jpg"
+                    alt="Photo de l'Hôtel Les mouettes"></a>
+            <div>
+                <p>Hôtel Les mouettes</p>
+                <p>Nuit à partir de 76€</p>
+            </div>
+        </article>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/hotel_mer_s.jpg" alt="Photo de l'Hôtel de la mer"></a>
+            <div>
+                <p>Hôtel de la mer</p>
+                <p>Nuit à partir de 46€</p>
+            </div>
+        </article>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/auberge_panier_s.jpg"
+                    alt="Photo de l'Auberge Le Panier"></a>
+            <div>
+                <p>Auberge Le Panier</p>
+                <p>Nuit à partir de 23€</p>
+            </div>
+        </article>
+        <article>
+            <a href="#"><img src="images/hebergements/4_small/hotel_amina_s.jpg" alt="Photo de l'Hôtel chez Amina"></a>
+            <div>
+                <p>Hôtel chez Amina</p>
+                <p>Nuit à partir de 96€</p>
+            </div>
+        </article>
+    </main>
+
+    <aside>
+        <h2 id="activites">Activités à Marseille</h2>
+        <article>
+            <a href="#"><img src="images/activites/4_small/vieux_port_mini.jpg"
+                    alt="Photo du Vieux Port de Marseille"></a>
+            <div>Vieux Port</div>
+        </article>
+        <article>
+            <a href="#"><img src="images/activites/4_small/fort_pomegues_mini.jpg" alt="Photo du Fort de Pomègues"></a>
+            <div>Fort de Pomègues</div>
+        </article>
+        <article>
+            <a href="#"><img src="images/activites/4_small/iles_frioul_mini.jpg" alt="Photo des Îles du Frioul"></a>
+            <div>Îles du Frioul</div>
+        </article>
+        <article>
+            <a href="#"><img src="images/activites/4_small/parc_calanques_mini.jpg"
+                    alt="Photo du Parc National des Calanques"></a>
+            <div>Parc National des Calanques</div>
+        </article>
+        <article>
+            <a href="#"><img src="images/activites/4_small/notre_dame_de_la_garde_mini.jpg"
+                    alt="Photo de Notre-Dame-de-la-Garde"></a>
+            <div>Notre-Dame-de-la-Garde</div>
+        </article>
+        <article>
+            <a href="#"><img src="images/activites/4_small/parc_longchamp_mini.jpg" alt="Photo du Parc Longchamp"></a>
+            <div>Parc Longchamp</div>
+        </article>
+    </aside>
+
+    <footer>
+        <div>
+            <h3>À propos</h3>
+            <p><a href="#">Fonctionnement du site</a></p>
+            <p><a href="#">Conditions générales de vente</a></p>
+            <p><a href="#">Données et confidentialité</a></p>
+        </div>
+        <div>
+            <h3>Nos hébergements</h3>
+            <p><a href="#">Charte qualité</a></p>
+            <p><a href="#">Soumettre votre hôtel</a></p>
+        </div>
+        <div>
+            <h3>Assistance</h3>
+            <p><a href="#">Centre d'aide</a></p>
+            <p><a href="#">Nous contacter</a></p>
+        </div>
+    </footer>
+</body>
+
 </html>
-
-
-
-dans le header : balise nav pour hébergement et activités
-
-un ul avec trois balises li
-
-mettre les deux dans le HTML pour la recherche et la loupe
-
-activités pourrait être un eside
-
-hébergement à marseilles = main
-
