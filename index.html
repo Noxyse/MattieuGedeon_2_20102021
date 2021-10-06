@@ -41,18 +41,10 @@
         <a href="#">
             <article>
                 <!-- balise picture https://developer.mozilla.org/fr/docs/Web/HTML/Element/picture -->
-                <picture>
-                    <source srcset="images\hebergements\4_small\soleil_matin_s.jpg" media="(min-width: 576px)">
-                    <img src="images/hebergements/4_small/soleil_matin_s.jpg" alt="Photo de l'Hôtel Le soleil du matin">
-                </picture>
-                <picture>
-                    <source srcset="images\hebergements\3_medium\soleil_matin_m.jpg" media="(min-width: 768px)">
-                    <img src="images/hebergements/4_small/soleil_matin_s.jpg" alt="Photo de l'Hôtel Le soleil du matin">
-                </picture>
-                <picture>
-                    <source srcset="images\hebergements\2_large\soleil_matin_l.jpg" media="(min-width: 992px)">
-                    <img src="images/hebergements/4_small/soleil_matin_s.jpg" alt="Photo de l'Hôtel Le soleil du matin">
-                </picture>
+                <img srcset="images\hebergements\3_medium\soleil_matin_m.jpg 1063w,
+                    images\hebergements\2_large\soleil_matin_l.jpg 2125w" sizes="(min-width: 1063px) 720px,
+                    (min-width: 2125px) 960px" src="images/hebergements/4_small/soleil_matin_s.jpg"
+                    alt="Photo de l'Hôtel Le soleil du matin">
                 <div>
                     <p>Hôtel Le soleil du matin</p>
                     <p>Nuit à partir de 128€</p>
