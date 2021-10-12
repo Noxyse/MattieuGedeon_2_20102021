@@ -1,0 +1,45 @@
+img
+{
+    width: 100%;
+    object-fit: cover;
+}  
+
+#bloc_page
+{
+    max-width: 768px;
+    margin: auto;
+}
+
+.fas fa-money-bill-wave
+{
+    border: 1px black solid;
+}
+
+.icone_filtre
+{
+    border: 3px black solid;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.icone_filtre > i
+{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+#populaires
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.soleil_matin
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
