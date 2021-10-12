@@ -18,17 +18,18 @@ img
 .icone_filtre
 {
     border: 3px black solid;
-    border-radius: 10px;
+    border-radius: 25px;
     box-sizing: content-box;
 }
 
 .icone_filtre > i
 {
     background-color: red;
-    width: 30px;
-    height: 30px;
     font-size: 20px;
     border-radius: 25px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: -2px;
 }
 
 #populaires
