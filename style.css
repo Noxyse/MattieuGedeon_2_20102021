@@ -1,0 +1,50 @@
+#bloc_page
+{
+    max-width: 768px;
+    margin: auto;
+}
+
+.fas fa-money-bill-wave
+{
+    border: 1px black solid;
+}
+
+.eco
+{
+    border: 3px black solid;
+    border-radius: 10px;
+    box-sizing: content-box;
+    width: 15%;
+    display: flex;
+}
+
+.familial
+{
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+.romantique
+{
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+.animal
+{
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+#populaires
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.soleil_matin
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
