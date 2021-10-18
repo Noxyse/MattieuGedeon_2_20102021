@@ -17,14 +17,16 @@ img
 
 .icone_filtre
 {
-    border: 3px black solid;
+    border: 3px #F2F2F2 solid;
     border-radius: 25px;
     box-sizing: content-box;
+    font-weight: bold;
 }
 
 .icone_filtre > i
 {
-    background-color: red;
+    color: #0065FC;
+    background-color:#DEEBFF;
     font-size: 20px;
     border-radius: 25px;
     display: inline-block;
@@ -39,8 +41,40 @@ img
     flex-direction: column;
 }
 
+h2
+{
+    padding-left: 15px;
+}
+
 .soleil_matin
 {
-    background-color: #ffffff;
+    border: 4px #FFFFFF solid;
     border-radius: 10px;
+    box-shadow: 2px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7.5px;
+}
+
+.coeur_eau
+{
+    border: 4px #FFFFFF solid;
+    border-radius: 10px;
+    box-shadow: 2px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7.5px;
+}
+
+.bleu_et_blanc
+{
+    border: 4px #FFFFFF solid;
+    border-radius: 10px;
+    box-shadow: 2px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7.5px;
 }
