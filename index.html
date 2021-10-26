@@ -15,8 +15,8 @@
     <div id="bloc_page">
         <header>
             <img src="images/logo/Reservia.svg" />
-            <nav>
-                <ul>
+            <nav id="menu">
+                <ul id="onglets">
                     <li><a href="#">S'inscrire</a></li>
                     <li><a href="#hebergements">Hébergements</a></li>
                     <li><a href="#activites">Activités</a></li>
@@ -110,128 +110,165 @@
             <h2 id="hebergements">Hébergements à Marseille</h2>
             <a href="#">
                 <article>
-                    <picture>
-                        <source srcset="images\hebergements\2_large\auberge_cannebiere_l.jpg"
-                            media="(min-width: 992px)" />
-                        <source srcset="images\hebergements\3_medium\auberge_cannebiere_m.jpg"
-                            media="(min-width: 768px)" />
-                        <img src="images\hebergements\4_small\auberge_cannebiere_s.jpg"
-                            alt="Photo de l'Auberge la Cannebière" class="host-img" />
-                    </picture>
+                    <div class="cannebiere">
+                        <picture>
+                            <source srcset="images\hebergements\2_large\auberge_cannebiere_l.jpg"
+                                media="(min-width: 992px)" />
+                            <source srcset="images\hebergements\3_medium\auberge_cannebiere_m.jpg"
+                                media="(min-width: 768px)" />
+                            <img src="images\hebergements\4_small\auberge_cannebiere_s.jpg"
+                                alt="Photo de l'Auberge la Cannebière" class="host-img" />
+                        </picture>
 
-                    <div>
-                        <p>Auberge la Cannebière</p>
-                        <p>Nuit à partir de 25€</p>
+                        <div>
+                            <p>Auberge la Cannebière</p>
+                            <p>Nuit à partir de 25€</p>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </article>
             </a>
             <a href="#">
                 <article>
-                    <picture>
-                        <source srcset="images\hebergements\2_large\hotel_port_l.jpg" media="(min-width: 992px)" />
-                        <source srcset="images\hebergements\3_medium\hotel_port_m.jpg" media="(min-width: 768px)" />
-                        <img src="images\hebergements\4_small\hotel_port_s.jpg" alt="Photo de l'Hôtel du port"
-                            class="host-img" />
-                    </picture>
+                    <div class="hotel_port">
+                        <picture>
+                            <source srcset="images\hebergements\2_large\hotel_port_l.jpg" media="(min-width: 992px)" />
+                            <source srcset="images\hebergements\3_medium\hotel_port_m.jpg" media="(min-width: 768px)" />
+                            <img src="images\hebergements\4_small\hotel_port_s.jpg" alt="Photo de l'Hôtel du port"
+                                class="host-img" />
+                        </picture>
 
-                    <div>
-                        <p>Hôtel du port</p>
-                        <p>Nuit à partir de 52€</p>
+                        <div>
+                            <p>Hôtel du port</p>
+                            <p>Nuit à partir de 52€</p>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </article>
             </a>
             <a href="#">
                 <article>
-                    <picture>
-                        <source srcset="images\hebergements\2_large\hotel_mouettes_l.jpg" media="(min-width: 992px)" />
-                        <source srcset="images\hebergements\3_medium\hotel_mouettes_m.jpg" media="(min-width: 768px)" />
-                        <img src="images\hebergements\4_small\hotel_mouettes_s.jpg" alt="Photo de l'Hôtel Les mouettes"
-                            class="host-img" />
-                    </picture>
+                    <div class="mouettes">
+                        <picture>
+                            <source srcset="images\hebergements\2_large\hotel_mouettes_l.jpg"
+                                media="(min-width: 992px)" />
+                            <source srcset="images\hebergements\3_medium\hotel_mouettes_m.jpg"
+                                media="(min-width: 768px)" />
+                            <img src="images\hebergements\4_small\hotel_mouettes_s.jpg"
+                                alt="Photo de l'Hôtel Les mouettes" class="host-img" />
+                        </picture>
 
-                    <div>
-                        <p>Hôtel Les mouettes</p>
-                        <p>Nuit à partir de 76€</p>
+                        <div>
+                            <p>Hôtel Les mouettes</p>
+                            <p>Nuit à partir de 76€</p>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </article>
             </a>
             <a href="#">
                 <article>
-                    <picture>
-                        <source srcset="images\hebergements\2_large\hotel_mer_l.jpg" media="(min-width: 992px)" />
-                        <source srcset="images\hebergements\3_medium\hotel_mer_m.jpg" media="(min-width: 768px)" />
-                        <img src="images\hebergements\4_small\hotel_mer_s.jpg" alt="Photo de l'Hôtel de la mer"
-                            class="host-img" />
-                    </picture>
+                    <div class="hotel_mer">
+                        <picture>
+                            <source srcset="images\hebergements\2_large\hotel_mer_l.jpg" media="(min-width: 992px)" />
+                            <source srcset="images\hebergements\3_medium\hotel_mer_m.jpg" media="(min-width: 768px)" />
+                            <img src="images\hebergements\4_small\hotel_mer_s.jpg" alt="Photo de l'Hôtel de la mer"
+                                class="host-img" />
+                        </picture>
 
-                    <div>
-                        <p>Hôtel de la mer</p>
-                        <p>Nuit à partir de 46€</p>
+                        <div>
+                            <p>Hôtel de la mer</p>
+                            <p>Nuit à partir de 46€</p>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </article>
             </a>
             <a href="#">
                 <article>
-                    <picture>
-                        <source srcset="images\hebergements\2_large\auberge_panier_l.jpg" media="(min-width: 992px)" />
-                        <source srcset="images\hebergements\3_medium\auberge_panier_m.jpg" media="(min-width: 768px)" />
-                        <img src="images\hebergements\4_small\auberge_panier_s.jpg" alt="Photo de l'Auberge Le Panier"
-                            class="host-img" />
-                    </picture>
+                    <div class="panier">
+                        <picture>
+                            <source srcset="images\hebergements\2_large\auberge_panier_l.jpg"
+                                media="(min-width: 992px)" />
+                            <source srcset="images\hebergements\3_medium\auberge_panier_m.jpg"
+                                media="(min-width: 768px)" />
+                            <img src="images\hebergements\4_small\auberge_panier_s.jpg"
+                                alt="Photo de l'Auberge Le Panier" class="host-img" />
+                        </picture>
 
-                    <div>
-                        <p>Auberge Le Panier</p>
-                        <p>Nuit à partir de 23€</p>
+                        <div>
+                            <p>Auberge Le Panier</p>
+                            <p>Nuit à partir de 23€</p>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </article>
             </a>
             <a href="#">
                 <article>
-                    <picture>
-                        <source srcset="images\hebergements\2_large\hotel_amina_l.jpg" media="(min-width: 992px)" />
-                        <source srcset="images\hebergements\3_medium\hotel_amina_m.jpg" media="(min-width: 768px)" />
-                        <img src="images\hebergements\4_small\hotel_amina_s.jpg" alt="Photo de l'Hôtel chez Amina"
-                            class="host-img" />
-                    </picture>
+                    <div class="amina">
+                        <picture>
+                            <source srcset="images\hebergements\2_large\hotel_amina_l.jpg" media="(min-width: 992px)" />
+                            <source srcset="images\hebergements\3_medium\hotel_amina_m.jpg"
+                                media="(min-width: 768px)" />
+                            <img src="images\hebergements\4_small\hotel_amina_s.jpg" alt="Photo de l'Hôtel chez Amina"
+                                class="host-img" />
+                        </picture>
 
-                    <div>
-                        <p>Hôtel chez Amina</p>
-                        <p>Nuit à partir de 96€</p>
+                        <div>
+                            <p>Hôtel chez Amina</p>
+                            <p>Nuit à partir de 96€</p>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </article>
             </a>
+            <p>Afficher plus</p>
         </main>
 
         <aside>
             <h2 id="activites">Activités à Marseille</h2>
             <article>
-                <a href="#"><img src="images/activites/4_small/vieux_port_mini.jpg"
-                        alt="Photo du Vieux Port de Marseille"></a>
-                <div>Vieux Port</div>
+                <div class="port_marseille">
+                    <a href="#"><img src="images/activites/4_small/vieux_port_mini.jpg"
+                            alt="Photo du Vieux Port de Marseille"></a>
+                    <div>Vieux Port</div>
+                </div>
             </article>
             <article>
-                <a href="#"><img src="images/activites/4_small/fort_pomegues_mini.jpg"
-                        alt="Photo du Fort de Pomègues"></a>
-                <div>Fort de Pomègues</div>
+                <div class="pomegues">
+                    <a href="#"><img src="images/activites/4_small/fort_pomegues_mini.jpg"
+                            alt="Photo du Fort de Pomègues"></a>
+                    <div>Fort de Pomègues</div>
+                </div>
             </article>
             <article>
-                <a href="#"><img src="images/activites/4_small/iles_frioul_mini.jpg" alt="Photo des Îles du Frioul"></a>
-                <div>Îles du Frioul</div>
+                <div class="frioul">
+                    <a href="#"><img src="images/activites/4_small/iles_frioul_mini.jpg"
+                            alt="Photo des Îles du Frioul"></a>
+                    <div>Îles du Frioul</div>
+                </div>
             </article>
             <article>
-                <a href="#"><img src="images/activites/4_small/parc_calanques_mini.jpg"
-                        alt="Photo du Parc National des Calanques"></a>
-                <div>Parc National des Calanques</div>
+                <div class="calanques">
+                    <a href="#"><img src="images/activites/4_small/parc_calanques_mini.jpg"
+                            alt="Photo du Parc National des Calanques"></a>
+                    <div>Parc National des Calanques</div>
+                </div>
             </article>
             <article>
-                <a href="#"><img src="images/activites/4_small/notre_dame_de_la_garde_mini.jpg"
-                        alt="Photo de Notre-Dame-de-la-Garde"></a>
-                <div>Notre-Dame-de-la-Garde</div>
+                <div class="notre_dame">
+                    <a href="#"><img src="images/activites/4_small/notre_dame_de_la_garde_mini.jpg"
+                            alt="Photo de Notre-Dame-de-la-Garde"></a>
+                    <div>Notre-Dame-de-la-Garde</div>
+                </div>
             </article>
             <article>
-                <a href="#"><img src="images/activites/4_small/parc_longchamp_mini.jpg"
-                        alt="Photo du Parc Longchamp"></a>
-                <div>Parc Longchamp</div>
+                <div class="longchamp">
+                    <a href="#"><img src="images/activites/4_small/parc_longchamp_mini.jpg"
+                            alt="Photo du Parc Longchamp"></a>
+                    <div>Parc Longchamp</div>
+                </div>
             </article>
         </aside>
 
