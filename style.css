@@ -4,6 +4,12 @@ img
     object-fit: cover;
 }  
 
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
 #onglets
 {
     font : bold 11px Batang, arial, serif;
@@ -93,6 +99,22 @@ h1
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 7.5px;
+}
+
+.soleil_matin i
+{
+    color: blue;
+}
+
+.soleil_matin img
+{
+    height: 150px;
+}
+
+.content_picture
+{
+    width: 150px;
+    height: 150px;
 }
 
 .coeur_eau
