@@ -11,6 +11,11 @@ a
     color: black;
 }
 
+#content_cartes_hebergements p
+{
+    margin: 0;
+}
+
 #onglets
 {
     font : bold 11px Batang, arial, serif;
@@ -106,6 +111,7 @@ h1
 
 .fiches i
 {
+    width: 100%;
     color: blue;
 }
 
@@ -118,15 +124,20 @@ h1
 
 .content_picture
 {
-    width: 150px;
     height: 150px;
-    justify-content: center;
+    width: 150px;
 }
 
 .description
 {
-    position: relative;
-    left: 20px;
+    padding-right: 10px;
+}
+
+#content_cartes_hebergements
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .fiches_hebergements

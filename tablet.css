@@ -1,0 +1,9 @@
+#content_cartes_hebergements
+{
+    flex-direction: row;
+}
+
+#content_cartes_hebergements > a
+{
+    width: 50%;
+}
