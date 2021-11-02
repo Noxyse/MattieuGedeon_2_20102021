@@ -38,7 +38,7 @@ a
 
 #onglets a:hover
 {
-    background : #fff;
+    background : rgb(143, 135, 135);
 }
 
 #bloc_page
@@ -93,8 +93,10 @@ h1
 .fiches
 {
     border: 4px #FFFFFF solid;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    background-color: white;
+    height: 150px;
+    border-radius: 17px;
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
     display: flex;
     margin-left: 15px;
     margin-right: 15px;
@@ -109,12 +111,15 @@ h1
 .fiches img
 {
     height: 150px;
+    width: 130px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .content_picture
 {
     width: 150px;
     height: 150px;
+    justify-content: center;
 }
 
 footer
