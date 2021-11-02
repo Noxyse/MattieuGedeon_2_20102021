@@ -49,7 +49,7 @@ a
 
 #bloc_page
 {
-    max-width: 768px;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -131,6 +131,8 @@ h1
 .description
 {
     padding-right: 10px;
+    padding-left: 15px;
+    width: 66%;
 }
 
 #content_cartes_hebergements
