@@ -1,6 +1,7 @@
 img
 {
-    width: 100%;
+    width: fit-content;
+    height: fit-content;
     object-fit: cover;
 }  
 
@@ -94,7 +95,7 @@ h1
 {
     border: 4px #FFFFFF solid;
     background-color: white;
-    height: 150px;
+    height: 140px;
     border-radius: 17px;
     box-shadow: 4px 4px 4px 4px #F2F2F2;
     display: flex;
@@ -110,7 +111,7 @@ h1
 
 .fiches img
 {
-    height: 150px;
+    height: 140px;
     width: 130px;
     border-radius: 15px 0px 0px 15px;
 }
@@ -120,6 +121,45 @@ h1
     width: 150px;
     height: 150px;
     justify-content: center;
+}
+
+.description
+{
+    position: relative;
+    left: 20px;
+}
+
+.fiches_hebergements
+{
+    border: 4px #FFFFFF solid;
+    background-color: white;
+    height: 200px;
+    border-radius: 17px;
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7.5px;
+}
+
+.fiches_hebergements i
+{
+    color: blue;
+}
+
+.fiches_hebergements img
+{
+    height: 120px;
+    width: 268px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.description_hebergements
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer

@@ -58,7 +58,7 @@
                                 </picture>
                             </div>
 
-                            <div>
+                            <div class="description">
                                 <p>Hôtel Le soleil du matin</p>
                                 <p>Nuit à partir de 128€</p>
                                 <!-- rajouter une div pour les etoiles -->
@@ -72,16 +72,18 @@
                     <article>
                         <!-- modifier les class par une class generique -->
                         <div class="fiches">
-                            <picture>
-                                <source srcset="images\hebergements\2_large\coeur_eau_l.jpg"
-                                    media="(min-width: 992px)" />
-                                <source srcset="images\hebergements\3_medium\coeur_eau_m.jpg"
-                                    media="(min-width: 768px)" />
-                                <img src="images\hebergements\4_small\coeur_eau_s.jpg"
-                                    alt="Photo de Au cœur de l'eau Chambres d'hôtes" class="host-img" />
-                            </picture>
+                            <div class="content_picture">
+                                <picture>
+                                    <source srcset="images\hebergements\2_large\coeur_eau_l.jpg"
+                                        media="(min-width: 992px)" />
+                                    <source srcset="images\hebergements\3_medium\coeur_eau_m.jpg"
+                                        media="(min-width: 768px)" />
+                                    <img src="images\hebergements\4_small\coeur_eau_s.jpg"
+                                        alt="Photo de Au cœur de l'eau Chambres d'hôtes" class="host-img" />
+                                </picture>
+                            </div>
 
-                            <div>
+                            <div class="description">
                                 <p>Au cœur de l'eau Chambres d'hôtes</p>
                                 <p>Nuit à partir de 71€</p>
                                 <i class="fas fa-star"></i>
@@ -92,16 +94,18 @@
                 <a href="#">
                     <article>
                         <div class="fiches">
-                            <picture>
-                                <source srcset="images\hebergements\2_large\bleu_et_blanc_l.jpg"
-                                    media="(min-width: 992px)" />
-                                <source srcset="images\hebergements\3_medium\bleu_et_blanc_m.jpg"
-                                    media="(min-width: 768px)" />
-                                <img src="images\hebergements\4_small\bleu_et_blanc_s.jpg"
-                                    alt="Photo de l'Hôtel Tout bleu et Blanc" class="host-img" />
-                            </picture>
+                            <div class="content.picture">
+                                <picture>
+                                    <source srcset="images\hebergements\2_large\bleu_et_blanc_l.jpg"
+                                        media="(min-width: 992px)" />
+                                    <source srcset="images\hebergements\3_medium\bleu_et_blanc_m.jpg"
+                                        media="(min-width: 768px)" />
+                                    <img src="images\hebergements\4_small\bleu_et_blanc_s.jpg"
+                                        alt="Photo de l'Hôtel Tout bleu et Blanc" class="host-img" />
+                                </picture>
+                            </div>
 
-                            <div>
+                            <div class="description">
                                 <p>Hôtel Tout bleu et Blanc</p>
                                 <p>Nuit à partir de 68€</p>
                                 <i class="fas fa-star"></i>
@@ -114,17 +118,19 @@
             <h2 id="hebergements">Hébergements à Marseille</h2>
             <a href="#">
                 <article>
-                    <div class="fiches">
-                        <picture>
-                            <source srcset="images\hebergements\2_large\auberge_cannebiere_l.jpg"
-                                media="(min-width: 992px)" />
-                            <source srcset="images\hebergements\3_medium\auberge_cannebiere_m.jpg"
-                                media="(min-width: 768px)" />
-                            <img src="images\hebergements\4_small\auberge_cannebiere_s.jpg"
-                                alt="Photo de l'Auberge la Cannebière" class="host-img" />
-                        </picture>
+                    <div class="fiches_hebergements">
+                        <div class="content_picture_hebergements">
+                            <picture>
+                                <source srcset="images\hebergements\2_large\auberge_cannebiere_l.jpg"
+                                    media="(min-width: 992px)" />
+                                <source srcset="images\hebergements\3_medium\auberge_cannebiere_m.jpg"
+                                    media="(min-width: 768px)" />
+                                <img src="images\hebergements\4_small\auberge_cannebiere_s.jpg"
+                                    alt="Photo de l'Auberge la Cannebière" class="host-img" />
+                            </picture>
+                        </div>
 
-                        <div>
+                        <div class="description_hebergements">
                             <p>Auberge la Cannebière</p>
                             <p>Nuit à partir de 25€</p>
                             <i class="fas fa-star"></i>
@@ -134,7 +140,7 @@
             </a>
             <a href="#">
                 <article>
-                    <div class="fiches">
+                    <div class="fiches_hebergements">
                         <picture>
                             <source srcset="images\hebergements\2_large\hotel_port_l.jpg" media="(min-width: 992px)" />
                             <source srcset="images\hebergements\3_medium\hotel_port_m.jpg" media="(min-width: 768px)" />
@@ -142,7 +148,7 @@
                                 class="host-img" />
                         </picture>
 
-                        <div>
+                        <div class="description_hebergements">
                             <p>Hôtel du port</p>
                             <p>Nuit à partir de 52€</p>
                             <i class="fas fa-star"></i>
@@ -152,7 +158,7 @@
             </a>
             <a href="#">
                 <article>
-                    <div class="fiches">
+                    <div class="fiches_hebergements">
                         <picture>
                             <source srcset="images\hebergements\2_large\hotel_mouettes_l.jpg"
                                 media="(min-width: 992px)" />
@@ -162,7 +168,7 @@
                                 alt="Photo de l'Hôtel Les mouettes" class="host-img" />
                         </picture>
 
-                        <div>
+                        <div class="description_hebergements">
                             <p>Hôtel Les mouettes</p>
                             <p>Nuit à partir de 76€</p>
                             <i class="fas fa-star"></i>
@@ -172,7 +178,7 @@
             </a>
             <a href="#">
                 <article>
-                    <div class="fiches">
+                    <div class="fiches_hebergements">
                         <picture>
                             <source srcset="images\hebergements\2_large\hotel_mer_l.jpg" media="(min-width: 992px)" />
                             <source srcset="images\hebergements\3_medium\hotel_mer_m.jpg" media="(min-width: 768px)" />
@@ -180,7 +186,7 @@
                                 class="host-img" />
                         </picture>
 
-                        <div>
+                        <div class="description_hebergements">
                             <p>Hôtel de la mer</p>
                             <p>Nuit à partir de 46€</p>
                             <i class="fas fa-star"></i>
@@ -190,7 +196,7 @@
             </a>
             <a href="#">
                 <article>
-                    <div class="fiches">
+                    <div class="fiches_hebergements">
                         <picture>
                             <source srcset="images\hebergements\2_large\auberge_panier_l.jpg"
                                 media="(min-width: 992px)" />
@@ -200,7 +206,7 @@
                                 alt="Photo de l'Auberge Le Panier" class="host-img" />
                         </picture>
 
-                        <div>
+                        <div class="description_hebergements">
                             <p>Auberge Le Panier</p>
                             <p>Nuit à partir de 23€</p>
                             <i class="fas fa-star"></i>
@@ -210,7 +216,7 @@
             </a>
             <a href="#">
                 <article>
-                    <div class="fiches">
+                    <div class="fiches_hebergements">
                         <picture>
                             <source srcset="images\hebergements\2_large\hotel_amina_l.jpg" media="(min-width: 992px)" />
                             <source srcset="images\hebergements\3_medium\hotel_amina_m.jpg"
@@ -219,7 +225,7 @@
                                 class="host-img" />
                         </picture>
 
-                        <div>
+                        <div class="description_hebergements">
                             <p>Hôtel chez Amina</p>
                             <p>Nuit à partir de 96€</p>
                             <i class="fas fa-star"></i>
