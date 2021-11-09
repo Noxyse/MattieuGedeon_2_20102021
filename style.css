@@ -1,7 +1,12 @@
 @font-face {
     font-family: 'Raleway';
     src: url('Raleway-Italic-VariableFont_wght.ttf');
-    src: url('Raleway-VariableFont_wght.ttf')
+    src: url('Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('Raleway-Bold.ttf');
 }
 
 body
@@ -24,7 +29,7 @@ a
 
 #content_cartes_hebergements p
 {
-    margin: 0;
+    margin: 0; /* enlever margin pour le nav */
 }
 
 #onglets
@@ -81,6 +86,10 @@ a
     border: 3px #F2F2F2 solid;
     border-radius: 25px;
     box-sizing: content-box;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    padding-right: 15px;
+    margin-right: 10px;
 }
 
 .icone_filtre > i
@@ -91,17 +100,19 @@ a
     border-radius: 25px;
     display: inline-block;
     padding: 15px;
-    margin-left: -2px;
+    margin-left: -4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 #populaires
 {
     background-color: #f2f2f2;
     display: flex;
-    flex-direction: column; /* pas possible de modifier le .description i */
+    flex-direction: column; /* pas possible de modifier le .description i   width 100% */
 }
 
-h1
+h2
 {
     padding-left: 15px; 
     font-weight: bold;
@@ -122,7 +133,7 @@ h1
 
 .fiches i
 {
-    width: 100%;
+    margin: 0;
     color: blue;
 }
 
@@ -150,7 +161,6 @@ h1
 {
     padding-top: 15px;
     font-size: small;
-    display: flex;
 }
 
 #content_cartes_hebergements
@@ -177,6 +187,7 @@ h1
 .fiches_hebergements i
 {
     color: blue;
+    margin: 0;
 }
 
 .fiches_hebergements img
@@ -188,8 +199,6 @@ h1
 
 .description_hebergements
 {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     padding-left: 10px;
 }
@@ -246,4 +255,5 @@ h1
 footer
 {
     background-color: #F2F2F2;
+    margin: 0;
 }
