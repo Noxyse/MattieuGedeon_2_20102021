@@ -16,7 +16,7 @@
         <header>
             <img src="images/logo/Reservia.svg" />
             <nav id="menu">
-                <ul id="onglets">
+                <ul>
                     <li><a href="#">S'inscrire</a></li>
                     <li><a href="#hebergements">Hébergements</a></li>
                     <li><a href="#activites">Activités</a></li>
@@ -25,19 +25,21 @@
         </header>
 
         <main>
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-            <span class="pin"><i class="fas fa-map-marker-alt"></i></span>
-            <input type="search">
-            <button>
-                <span class="rechercher">Rechercher</span>
-                <span class="icone"><i class="fas fa-search"></i></span>
-            </button> <!-- span rechercher et span icone -->
+            <div class='start'>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+                <span class="pin"><i class="fas fa-map-marker-alt"></i></span>
+                <input type="search">
+                <button>
+                    <span class="rechercher">Rechercher</span>
+                    <span class="icone"><i class="fas fa-search"></i></span>
+                </button> <!-- span rechercher et span icone -->
+            </div>
 
             <h2>Filtres</h2>
             <!-- rajouter les logos -->
             <div class="filtres">
-                <span class="icone_filtre"><i class="fas fa-money-bill-wave"></i> Economique</span>
+                <span class="icone_filtre"><i class="fas fa-money-bill-wave"></i> Économique</span>
                 <span class="icone_filtre"><i class="fas fa-child"></i> Familial</span>
                 <span class="icone_filtre"><i class="fas fa-heart"></i> Romantique</span>
                 </br>
@@ -251,7 +253,7 @@
                     </article>
                 </a>
             </div>
-            <p>Afficher plus</p>
+            <p id="afficher">Afficher plus</p>
         </main>
 
         <aside>
@@ -311,18 +313,18 @@
 
         <footer>
             <div>
-                <h2>À propos</h2>
+                <h3>À propos</h3>
                 <p><a href="#">Fonctionnement du site</a></p>
                 <p><a href="#">Conditions générales de vente</a></p>
                 <p><a href="#">Données et confidentialité</a></p>
             </div>
             <div>
-                <h2>Nos hébergements</h2>
+                <h3>Nos hébergements</h3>
                 <p><a href="#">Charte qualité</a></p>
                 <p><a href="#">Soumettre votre hôtel</a></p>
             </div>
             <div>
-                <h2>Assistance</h2>
+                <h3>Assistance</h3>
                 <p><a href="#">Centre d'aide</a></p>
                 <p><a href="#">Nous contacter</a></p>
             </div>
