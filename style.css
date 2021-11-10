@@ -110,12 +110,21 @@ h3
     margin-bottom: 10px;
 }
 
-#info
+.info
 {
     margin-top: 20px;
     margin-bottom: 30px;
     padding-left: 20px;
-    display: flex;
+    padding-right: 10px;
+}
+
+.info i
+{
+    border: solid;
+    border-radius: 30px;
+    border-color: #F2F2F2;
+    color: #0065FC;
+    padding: 10px;
 }
 
 #populaires
