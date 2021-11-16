@@ -72,15 +72,28 @@ h3
 
 .liens_menu
 {
-    border-bottom: 1px solid blue;
-    display: inline-block;
+    border-bottom: 1px solid gray;
     width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
 }
+
+.liens_menu:hover
+{
+    border-bottom: 1px solid blue;
+}
+/* rajouter les couleurs sur herbegements et activites */
 
 #menu > ul
 {
     list-style: none;
     padding: 0;
+    display: flex;
+}
+
+#rechercher
+{
+    display: none;
 }
 
 .fas fa-money-bill-wave

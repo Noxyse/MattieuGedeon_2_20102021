@@ -8,6 +8,16 @@
     width: 50%;
 }
 
+#rechercher
+{
+    display: inline;
+}
+
+#icone
+{
+    display: none;
+}
+
 /* 
 section en pleine largeur
 elements internes aux sections en deux */
