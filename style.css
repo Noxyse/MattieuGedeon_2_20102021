@@ -28,7 +28,13 @@ a
     color: black;
 }
 
-.start
+#reservia
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#start
 {
     padding-left: 20px;
     padding-right: 10px;
@@ -66,8 +72,10 @@ h3
 #inscrire
 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 35px;
+    right: 20px;
+    list-style: none;
+    color: blue;
 }
 
 .liens_menu
@@ -102,11 +110,21 @@ h3
     border-radius: 25px;
 }
 
-.pin
+#start input[type=text]
+{
+    border: 2px #F2F2F2 solid;
+    padding: 10px;
+    font-family: "Raleway-Bold";
+}
+
+#pin
 {
     border: 2px #FFFFFF solid;
     background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
 }
+
 
 .filtres
 {

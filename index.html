@@ -14,10 +14,14 @@
 <body>
     <div id="bloc_page">
         <header>
-            <img src="images/logo/Reservia.svg" />
-            <nav id="menu">
+            <div id="reservia">
+                <img src="images/logo/Reservia.svg" />
                 <ul>
                     <li id="inscrire"><a href="#">S'inscrire</a></li>
+                </ul>
+            </div>
+            <nav id="menu">
+                <ul>
                     <li class="liens_menu"><a href="#hebergements">Hébergements</a></li>
                     <li class="liens_menu"><a href="#activites">Activités</a></li>
                 </ul>
@@ -25,11 +29,11 @@
         </header>
 
         <main>
-            <div class='start'>
+            <div id='start'>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <span class="pin"><i class="fas fa-map-marker-alt"></i></span>
-                <input type="search">
+                <span id="pin"><i class="fas fa-map-marker-alt"></i></span>
+                <input type="text" placeholder="Marseille, France">
                 <button>
                     <span id="rechercher">Rechercher</span>
                     <span id="icone"><i class="fas fa-search"></i></span>
