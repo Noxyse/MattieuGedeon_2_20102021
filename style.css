@@ -34,7 +34,20 @@ a
     margin-top: 20px;
 }
 
-#start
+ul
+{
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0;
+}
+
+ul li
+{
+    padding-right: 25%;
+    border-bottom: 1px solid #000;
+}
+
+.start
 {
     padding-left: 20px;
     padding-right: 10px;
