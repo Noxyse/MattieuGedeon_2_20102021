@@ -28,11 +28,13 @@ a
     color: black;
 }
 
-header
+#reservia
 {
-    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
+<<<<<<< HEAD
 ul
 {
     list-style-type: none;
@@ -47,6 +49,9 @@ ul li
 }
 
 .start
+=======
+#start
+>>>>>>> 85a5b850d4bee8f6881d9f068c26a2654572138c
 {
     padding-left: 20px;
     padding-right: 10px;
@@ -81,17 +86,69 @@ h3
     margin: auto;
 }
 
+#inscrire
+{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    list-style: none;
+    color: blue;
+}
+
+.liens_menu
+{
+    border-bottom: 1px solid gray;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.liens_menu:hover
+{
+    border-bottom: 1px solid blue;
+}
+/* rajouter les couleurs sur herbegements et activites */
+
+#menu > ul
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#rechercher
+{
+    display: none;
+}
+
 .fas fa-money-bill-wave
 {
     border: 1px black solid;
     border-radius: 25px;
 }
 
-.pin
+#start input[type=text]
+{
+    border: 2px #F2F2F2 solid;
+    padding: 10px;
+    font-family: "Raleway-Bold";
+}
+
+#start input::placeholder
+{
+    font-family: "Raleway-Bold";
+    color: black;
+    font-size: 12px;
+}
+
+#pin
 {
     border: 2px #FFFFFF solid;
     background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
 }
+
 
 .filtres
 {
@@ -163,7 +220,16 @@ h3
 .fiches i
 {
     margin: 0;
+}
+
+.fiches .star-blue
+{
     color: blue;
+}
+
+.fiches .star-grey
+{
+    color: #F2F2F2;
 }
 
 .fiches img
