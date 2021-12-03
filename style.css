@@ -41,16 +41,9 @@ ul
     padding-inline-start: 0;
 }
 
-ul li
+#start
 {
-    padding-right: 25%;
-    border-bottom: 1px solid #000;
-}
-
-.start
-{
-    padding-left: 20px;
-    padding-right: 10px;
+    margin-left: 20px;
 }
 
 h1
@@ -88,7 +81,12 @@ h3
     top: 35px;
     right: 20px;
     list-style: none;
-    color: blue;
+    font-family: "Raleway-Bold";
+}
+
+#inscrire a
+{
+    color: blue; /* rajouter les variables */
 }
 
 .liens_menu
@@ -191,6 +189,8 @@ h3
     border-color: #F2F2F2;
     color: #0065FC;
     padding: 10px;
+    font-size: 12px;
+    margin-bottom: 16px;
 }
 
 #populaires
