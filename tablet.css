@@ -18,6 +18,11 @@
     display: none;
 }
 
+.info i
+{
+    margin-bottom: 0;
+}
+
 /* 
 section en pleine largeur
 elements internes aux sections en deux */
