@@ -207,7 +207,7 @@ h3
 
 .fiches .star-blue
 {
-    color: blue;
+    color: #0065FC;
 }
 
 .fiches .star-grey
@@ -239,6 +239,16 @@ h3
 {
     padding-top: 15px;
     font-size: small;
+}
+
+.description_hebergements .star-grey
+{
+    color: #F2F2F2;
+}
+
+.description_hebergements .star-blue
+{
+    color: #0065FC;
 }
 
 #content_cartes_hebergements
