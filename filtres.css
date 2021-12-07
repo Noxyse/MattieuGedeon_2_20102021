@@ -1,15 +1,14 @@
 .filtres
 {
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .icone_filtre
 {
     border: 3px #F2F2F2 solid;
     border-radius: 25px;
-    box-sizing: content-box;
-    padding-top: 14px;
-    padding-bottom: 11px;
     padding-right: 15px;
     margin-right: 10px;
     font-family: 'Raleway-Bold';
@@ -21,7 +20,6 @@
     background-color:#DEEBFF;
     font-size: 20px;
     border-radius: 25px;
-    display: inline-block;
     padding: 15px;
     margin-left: -4px;
     margin-right: 10px;
@@ -34,6 +32,7 @@
     margin-bottom: 30px;
     padding-left: 20px;
     padding-right: 10px;
+    display: inline-block;
 }
 
 .info i
@@ -44,5 +43,4 @@
     color: #0065FC;
     padding: 10px;
     font-size: 12px;
-    margin-bottom: 16px;
 }
