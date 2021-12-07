@@ -1,0 +1,47 @@
+#reservia
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0;
+}
+
+#inscrire
+{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    list-style: none;
+    font-family: "Raleway-Bold";
+}
+
+#inscrire a
+{
+    color: blue; /* rajouter les variables */
+}
+
+.liens_menu
+{
+    border-bottom: 1px solid gray;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.liens_menu:hover
+{
+    border-bottom: 1px solid blue;
+}
+/* rajouter les couleurs sur herbegements et activites */
+
+#menu > ul
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}

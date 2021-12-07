@@ -1,0 +1,31 @@
+#start
+{
+    margin-left: 20px;
+}
+
+#start input[type=text]
+{
+    border: 2px #F2F2F2 solid;
+    padding: 10px;
+    font-family: "Raleway-Bold";
+}
+
+#start input::placeholder
+{
+    font-family: "Raleway-Bold";
+    color: black;
+    font-size: 12px;
+}
+
+#rechercher
+{
+    display: none;
+}
+
+#pin
+{
+    border: 2px #FFFFFF solid;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
+}

@@ -1,0 +1,48 @@
+.filtres
+{
+    padding-left: 20px;
+}
+
+.icone_filtre
+{
+    border: 3px #F2F2F2 solid;
+    border-radius: 25px;
+    box-sizing: content-box;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    padding-right: 15px;
+    margin-right: 10px;
+    font-family: 'Raleway-Bold';
+}
+
+.icone_filtre > i
+{
+    color: #0065FC;
+    background-color:#DEEBFF;
+    font-size: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: -4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.info
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.info i
+{
+    border: solid;
+    border-radius: 30px;
+    border-color: #F2F2F2;
+    color: #0065FC;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
