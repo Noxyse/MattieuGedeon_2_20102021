@@ -1,0 +1,41 @@
+#populaires
+{
+    display: flex;
+    width: 30%;
+    order: 2;
+}
+
+#content_cartes_hebergements
+{
+    display: flex;
+}
+
+main
+{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.filtres
+{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.content_picture
+{
+    width: 150px;
+}
+
+#hebergements
+{
+    order: 1;
+    width: 60%;
+}
+
+.description i
+{
+    padding-top: 0;
+}
