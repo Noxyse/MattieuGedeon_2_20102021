@@ -44,12 +44,12 @@
 
 .fiches .star-blue
 {
-    color: #0065FC;
+    color: var(--full-stars);
 }
 
 .fiches .star-grey
 {
-    color: #F2F2F2;
+    color: var(--empty-stars);
 }
 
 .fiches img

@@ -5,12 +5,12 @@
 
 .description_hebergements .star-grey
 {
-    color: #F2F2F2;
+    color: var(--empty-stars);
 }
 
 .description_hebergements .star-blue
 {
-    color: #0065FC;
+    color: var(--full-stars);
 }
 
 #content_cartes_hebergements

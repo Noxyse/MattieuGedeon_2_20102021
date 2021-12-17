@@ -10,6 +10,16 @@
     display: flex;
 }
 
+#content_cartes_hebergements a
+{
+    width: 30%;
+}
+
+.fiches_hebergements
+{
+    margin-bottom: 30px;
+}
+
 main
 {
     justify-content: space-evenly;
@@ -33,6 +43,10 @@ main
 {
     order: 1;
     width: 60%;
+    background-color: #F2F2F2;
+    border-radius: 20px;   
+    padding-left: 25px;
+    padding-bottom: 25px; 
 }
 
 .description i

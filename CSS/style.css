@@ -73,3 +73,11 @@ footer
     padding-left: 20px;
     padding-bottom: 40px;
 }
+
+:root
+{
+    --full-stars: #0065FC;
+    --empty-stars: #F2F2F2;
+    --icone-filtre-bg: #DEEBFF;
+    --icone-filtre: #0065FC;
+}
