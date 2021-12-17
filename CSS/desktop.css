@@ -1,9 +1,31 @@
+#start
+{
+    margin-left: 40px;
+}
+
+.info
+{
+    margin-left: 40px;
+    padding-left: 0;
+}
+
 #populaires
 {
     display: flex;
     width: 30%;
     order: 2;
     border-radius: 20px;
+    justify-content: space-around;
+}
+
+#populaires a
+{
+    position: relative;
+}
+
+#populaires h2
+{
+    padding-top: 20px;
 }
 
 #content_cartes_hebergements
@@ -35,6 +57,10 @@ main
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 20px;
+    width: 65%;
 }
 
 .content_picture
@@ -67,6 +93,8 @@ aside
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 aside h2
@@ -79,6 +107,12 @@ aside h2
     width: 24%;
 }
 
+
+#colonne1 img
+{
+    height: 347px;
+}
+
 #colonne2
 {
     width: 24%;
@@ -87,6 +121,11 @@ aside h2
 #colonne3
 {
     width: 24%;
+}
+
+#colonne3 img
+{
+    height: 347px;
 }
 
 #colonne4
@@ -98,4 +137,10 @@ aside h2
 {
     position: absolute;
     bottom: 5px;
+}
+
+.stars_conteneur_populaires
+{
+    position: absolute;
+    bottom: 15px;
 }
