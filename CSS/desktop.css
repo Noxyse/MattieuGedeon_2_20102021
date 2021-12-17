@@ -14,11 +14,13 @@
 #content_cartes_hebergements a
 {
     width: 30%;
+    font-size: 0.8em;
 }
 
 .fiches_hebergements
 {
     margin-bottom: 30px;
+    position: relative;
 }
 
 main
@@ -53,4 +55,47 @@ main
 .description i
 {
     padding-top: 0;
+}
+
+.fiches_activites
+{
+    height: inherit;
+}
+
+aside
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside h2
+{
+    width: 100%;
+}
+
+#colonne1
+{
+    width: 24%;
+}
+
+#colonne2
+{
+    width: 24%;
+}
+
+#colonne3
+{
+    width: 24%;
+}
+
+#colonne4
+{
+    width: 24%;
+}
+
+.stars_conteneur
+{
+    position: absolute;
+    bottom: 5px;
 }
