@@ -3,6 +3,8 @@
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
+    width: 65%;
 }
 
 .icone_filtre

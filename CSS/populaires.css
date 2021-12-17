@@ -35,6 +35,7 @@
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 7.5px;
+    position: relative;
 }
 
 .fiches i
@@ -57,4 +58,10 @@
     height: 140px;
     width: 130px;
     border-radius: 15px 0px 0px 15px;
+}
+
+.stars_conteneur_populaires
+{
+    position: absolute;
+    bottom: 5px;
 }
