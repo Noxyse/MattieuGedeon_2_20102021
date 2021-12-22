@@ -5,6 +5,20 @@
     flex-direction: column; /* pas possible de modifier le .description i   width 100% */
 }
 
+#titre_populaires
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+#titre_populaires i
+{
+    margin-top: 45px;
+    font-size: 1.4em;
+}
+
 .content_picture
 {
     height: 150px;
