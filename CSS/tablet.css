@@ -1,4 +1,9 @@
-
+#footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 #content_cartes_hebergements
 {
