@@ -5,7 +5,6 @@
 
 #start input[type=text]
 {
-    border: 2px #F2F2F2 solid;
     padding: 10px;
     font-family: "Raleway-Bold";
 }
@@ -15,6 +14,18 @@
     font-family: "Raleway-Bold";
     color: black;
     font-size: 12px;
+}
+
+#search_bar
+{
+    border: 2px #F2F2F2 solid;
+    display: inline-flex;
+    border-radius: 15px;
+}
+
+#search_bar input
+{
+    border: none;
 }
 
 #rechercher

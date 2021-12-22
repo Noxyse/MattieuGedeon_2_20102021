@@ -1,7 +1,13 @@
 button
 {
-    padding: 10px;
+    border: none;
+    padding: 10px 12px;
     background-color: var(--full-stars);
     color: white;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
+}
+
+#pin
+{
+    border: none;
 }

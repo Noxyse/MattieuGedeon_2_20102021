@@ -1,3 +1,22 @@
+.filtres
+{
+    padding-left: 20px;
+}
+
+.filtres h2
+{
+    width: 100%;
+}
+
+#bulles_filtres
+{
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+}
+
 #footer
 {
     display: flex;
