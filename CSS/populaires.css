@@ -32,6 +32,11 @@
     width: 66%;
 }
 
+.description p
+{
+    font-size: 0.8em;
+}
+
 .description i
 {
     padding-top: 15px;
