@@ -60,12 +60,19 @@ h3
     margin: auto;
 }
 
+.noms_lieux
+{
+    font-family: "Raleway-Bold";
+}
+
 #afficher
 {
     padding-left: 20px;
     font-family: "Raleway-Bold";
     margin-bottom: 40px;
     margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer
