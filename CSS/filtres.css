@@ -34,6 +34,11 @@
     margin-right: 10px;
 }
 
+.icone_filtre:hover
+{
+    border-color: var(--icone-filtre-bg);
+}
+
 .info
 {
     margin-top: 20px;
