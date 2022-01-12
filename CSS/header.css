@@ -22,12 +22,12 @@ ul
 
 #inscrire a
 {
-    color: blue; /* rajouter les variables */
+    color: var(--full-stars); /* rajouter les variables */
 }
 
 .liens_menu
 {
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid var(--empty-stars);
     width: 50%;
     text-align: center;
     padding-bottom: 10px;
@@ -35,9 +35,14 @@ ul
 
 .liens_menu:hover
 {
-    border-bottom: 1px solid blue;
+    border-bottom: 2px solid var(--full-stars);
 }
 /* rajouter les couleurs sur herbegements et activites */
+
+.liens_menu:hover a
+{
+    color: var(--full-stars);
+}
 
 #menu > ul
 {
