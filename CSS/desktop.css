@@ -16,6 +16,7 @@ ul
     padding-top: 35px;
     border-bottom: none;
     right: 8em;
+    position: relative;
 }
 
 .liens_menu:hover
