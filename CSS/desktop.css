@@ -4,6 +4,26 @@ header
     justify-content: space-between;
 }
 
+ul
+{
+    margin-block-start: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.liens_menu
+{
+    padding-top: 35px;
+    border-bottom: none;
+    right: 8em;
+}
+
+.liens_menu:hover
+{
+    border-top: 1px solid blue;
+    border-bottom: none;
+}
+
 #start
 {
     margin-left: 40px;
