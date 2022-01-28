@@ -1,54 +1,57 @@
-.filtres
+@media all and (min-width: 768px)
 {
-    padding-left: 20px;
+    .filtres
+    {
+        padding-left: 20px;
+    }
+    
+    .filtres h2
+    {
+        width: 100%;
+    }
+    
+    #bulles_filtres
+    {
+        padding-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    #footer
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    #content_cartes_hebergements
+    {
+        flex-direction: row;
+    }
+    
+    #content_cartes_hebergements > a
+    {
+        width: 50%;
+    }
+    
+    #rechercher
+    {
+        display: inline;
+    }
+    
+    #icone
+    {
+        display: none;
+    }
+    
+    .info i
+    {
+        margin-bottom: 0;
+    }
+    
+    /* 
+    section en pleine largeur
+    elements internes aux sections en deux */
 }
-
-.filtres h2
-{
-    width: 100%;
-}
-
-#bulles_filtres
-{
-    padding-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    width: 100%;
-}
-
-#footer
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#content_cartes_hebergements
-{
-    flex-direction: row;
-}
-
-#content_cartes_hebergements > a
-{
-    width: 50%;
-}
-
-#rechercher
-{
-    display: inline;
-}
-
-#icone
-{
-    display: none;
-}
-
-.info i
-{
-    margin-bottom: 0;
-}
-
-/* 
-section en pleine largeur
-elements internes aux sections en deux */

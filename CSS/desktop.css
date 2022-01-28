@@ -1,219 +1,222 @@
-header
+@media all and (min-width: 992px)
 {
-    display: flex;
-    justify-content: space-between;
-}
-
-ul
-{
-    margin-block-start: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-#menu
-{
-    margin-right: 15px;
-}
-
-.liens_menu
-{
-    padding-top: 35px;
-    border-bottom: none;
-    margin-right: 30px;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-top: 2px solid transparent;
-}
-
-.liens_menu:hover
-{
-    border-top: 2px solid var(--full-stars);
-    border-bottom: none;
-}
-
-#inscrire
-{
-    position: inherit;
-    padding-top: 35px;
-}
-
-#start
-{
-    margin-left: 40px;
-}
-
-button
-{
-    border-radius: 0px 10px 10px 0px;
-}
-
-.info
-{
-    margin-left: 40px;
-    padding-left: 0;
-}
-
-#populaires
-{
-    display: flex;
-    width: 30%;
-    order: 2;
-    border-radius: 20px;
-    justify-content: space-between;
-}
-
-#populaires i
-{
-    padding-top: 20px;
-}
-
-#populaires a
-{
-    position: relative;
-    padding-bottom: 12px;
-}
-
-#populaires h2
-{
-    padding-top: 20px;
-}
-
-#content_cartes_hebergements
-{
-    display: flex;
-    justify-content: space-around;
-    padding-right: 0;
-}
-
-#content_cartes_hebergements a
-{
-    width: 33%;
-    font-size: 0.8em;
-}
-
-#content_cartes_hebergements p
-{
-    width: 100%;
-}
-
-.fiches_hebergements
-{
-    margin-bottom: 30px;
-    position: relative;
-}
-
-#afficher
-{
-    padding-top: 0;
-}
-
-main
-{
-    justify-content: space-around;
-    display: flex;
-}
-
-.filtres
-{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 20px;
-    margin-left: 20px;
-    margin-right: 25px;
-}
-
-.content_picture
-{
-    width: 150px;
-}
-
-#hebergements
-{
-    order: 1;
-    width: 60%;
-    border-radius: 20px;
-    background-color: #F2F2F2;
-    padding-top: 25px;
-    padding-right: 0;
-}
-
-.description i
-{
-    padding-top: 0;
-}
-
-.fiches_activites
-{
-    height: inherit;
-}
-
-aside
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-aside h2
-{
-    width: 100%;
-}
-
-#colonne1
-{
-    width: 24%;
-}
-
-
-#colonne1 img
-{
-    height: 347px;
-}
-
-#colonne2
-{
-    width: 24%;
-}
-
-#colonne3
-{
-    width: 24%;
-}
-
-#colonne3 img
-{
-    height: 347px;
-}
-
-#colonne4
-{
-    width: 24%;
-}
-
-.stars_conteneur
-{
-    position: absolute;
-    bottom: 5px;
-}
-
-.stars_conteneur_populaires
-{
-    position: absolute;
-    bottom: 15px;
-}
-
-footer
-{
-    margin-top: 40px;
-}
-
-#footer
-{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    ul
+    {
+        margin-block-start: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #menu
+    {
+        margin-right: 15px;
+    }
+    
+    .liens_menu
+    {
+        padding-top: 35px;
+        border-bottom: none;
+        margin-right: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-top: 2px solid transparent;
+    }
+    
+    .liens_menu:hover
+    {
+        border-top: 2px solid var(--full-stars);
+        border-bottom: none;
+    }
+    
+    #inscrire
+    {
+        position: inherit;
+        padding-top: 35px;
+    }
+    
+    #start
+    {
+        margin-left: 40px;
+    }
+    
+    button
+    {
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .info
+    {
+        margin-left: 40px;
+        padding-left: 0;
+    }
+    
+    #populaires
+    {
+        display: flex;
+        width: 30%;
+        order: 2;
+        border-radius: 20px;
+        justify-content: space-between;
+    }
+    
+    #populaires i
+    {
+        padding-top: 20px;
+    }
+    
+    #populaires a
+    {
+        position: relative;
+        padding-bottom: 12px;
+    }
+    
+    #populaires h2
+    {
+        padding-top: 20px;
+    }
+    
+    #content_cartes_hebergements
+    {
+        display: flex;
+        justify-content: space-around;
+        padding-right: 0;
+    }
+    
+    #content_cartes_hebergements a
+    {
+        width: 33%;
+        font-size: 0.8em;
+    }
+    
+    #content_cartes_hebergements p
+    {
+        width: 100%;
+    }
+    
+    .fiches_hebergements
+    {
+        margin-bottom: 30px;
+        position: relative;
+    }
+    
+    #afficher
+    {
+        padding-top: 0;
+    }
+    
+    main
+    {
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .filtres
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+    
+    .content_picture
+    {
+        width: 150px;
+    }
+    
+    #hebergements
+    {
+        order: 1;
+        width: 60%;
+        border-radius: 20px;
+        background-color: #F2F2F2;
+        padding-top: 25px;
+        padding-right: 0;
+    }
+    
+    .description i
+    {
+        padding-top: 0;
+    }
+    
+    .fiches_activites
+    {
+        height: inherit;
+    }
+    
+    aside
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    aside h2
+    {
+        width: 100%;
+    }
+    
+    #colonne1
+    {
+        width: 24%;
+    }
+    
+    
+    #colonne1 img
+    {
+        height: 347px;
+    }
+    
+    #colonne2
+    {
+        width: 24%;
+    }
+    
+    #colonne3
+    {
+        width: 24%;
+    }
+    
+    #colonne3 img
+    {
+        height: 347px;
+    }
+    
+    #colonne4
+    {
+        width: 24%;
+    }
+    
+    .stars_conteneur
+    {
+        position: absolute;
+        bottom: 5px;
+    }
+    
+    .stars_conteneur_populaires
+    {
+        position: absolute;
+        bottom: 15px;
+    }
+    
+    footer
+    {
+        margin-top: 40px;
+    }
+    
+    #footer
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
